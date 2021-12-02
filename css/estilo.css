@@ -1,0 +1,487 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    float:inherit;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: #FD4C5C;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 10px 30px;
+    border:0px;
+}
+section img{
+    width: 500px;
+}
+span{
+    font-size: 50px;
+    background: #ccc;
+    background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+    font-family:system-ui;
+    font-size: 3rem;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+footer{
+    background-color: #FD4C5C;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    width: 1903px;
+}
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    width: 1903px;
+}
+.centrado{
+    position: absolute;
+    top:25%;
+    left: 738px;
+    color: rgb(255, 255, 255);
+    font-size: 171px;
+}
+
+.derecha{
+    float: right;
+    width: 550px;
+    margin: 0px 80px 0px 0px;
+}
+.clear{
+    clear: both;
+}
+.margen{
+    
+    padding: 150px 400px 60px;
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    margin: 0px 80px 0px 0px;
+}
+.otro{
+    position: absolute;
+    top:280%;
+    left: 1093px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.texto{
+    position:absolute;
+    top:310%;
+    left: 1102px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+footer{
+    background-color: #fd4c5c;
+    height: 50%;
+    width: 101%;
+    color: white;
+}
+.columnas{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.tamaño{
+    margin: 0 90px;
+    padding: 20px 0;
+}
+.email{
+    text-align: right;
+    color: white;
+    text-decoration:none;
+    padding: 20px;
+
+}
+
+@media(max-width:1200px){
+   
+    span{
+        font-size: 37px;
+        background: #ccc;
+        background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+        font-family:system-ui;
+        font-size: 3rem;
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        width: 988px;
+    }
+    
+    .contenedor1{
+        position: relative;
+        display: inline-block;
+        width: 1005px;
+    }
+    .centrado{
+        position: absolute;
+        top:16%;
+        left: 327px;
+        color: rgb(255, 255, 255);
+        font-size: 123px;
+    }
+    
+    .derecha{
+        float: right;
+        width:280px;
+        margin: -51px -315px 54px;
+        
+    }
+    .izquierda{
+        float: left;
+        width: 306px;
+        margin: 40px -294px  10px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    .contenedorTex{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: -23px;
+        margin: -33px -180px -3px;
+    }
+    h2{
+        font-size: 37px;
+    }
+    .contenedorTex2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px -230px 44px;
+        float: right;
+        padding: 19%;
+
+    }
+    footer{
+        background-color: #fd4c5c;
+        height: 50%;
+        width: 98%;
+        color: white;
+        padding: -1px;
+        margin: 0px -71px -12px;
+    }
+}
+
+@media(max-width:992px){
+   
+    span{
+        font-size: 37px;
+        background: #ccc;
+        background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+        font-family:system-ui;
+        font-size: 3rem;
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        width: 823px;
+        margin: 2px -4px -5px;
+    }
+    
+    .contenedor1{
+        position: relative;
+        display: inline-block;
+        width: 818px;
+        padding: -1px;
+        margin: 372px -1px -5px;
+    }
+    .centrado{
+        position: absolute;
+        top:16%;
+        left: 249px;
+        color: rgb(255, 255, 255);
+        font-size: 115px;
+    }
+    
+    .derecha{
+        float: right;
+        width:280px;
+        margin: -62px -174px 54px;
+        
+    }
+    .izquierda{
+        float: left;
+        width: 306px;
+        margin: 40px -294px  10px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    .contenedorTex{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 23px;
+        margin: -110px -333px 0px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .contenedorTex2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px -230px 44px;
+        float: right;
+        padding: 19%;
+
+    }
+    footer{
+        background-color: #fd4c5c;
+        height: 50%;
+        width: 96%;
+        color: white;
+        padding: -1px;
+        margin: -5px 2px -12px;
+    }
+}
+
+@media(max-width:768px){
+   
+    span{
+        font-size: 37px;
+        background: #ccc;
+        background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+        font-family:system-ui;
+        font-size: 3rem;
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        width: 823px;
+        margin: 2px -4px -5px;
+    }
+    
+    .contenedor1{
+        position: relative;
+        display: inline-block;
+        width: 818px;
+        padding: -1px;
+        margin: 372px -1px -5px;
+    }
+    .centrado{
+        position: absolute;
+        top:16%;
+        left: 249px;
+        color: rgb(255, 255, 255);
+        font-size: 115px;
+    }
+    
+    .derecha{
+        float: right;
+        width:271px;
+        margin: -59px -315px 54px;
+        
+    }
+    .izquierda{
+        float: left;
+        width: 306px;
+        margin: 19px -359px  10px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    .contenedorTex{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 22px;
+        margin: -73px -364px 0px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .contenedorTex2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px -350px 44px;
+        float: right;
+        padding: 19%;
+
+    }
+    footer{
+        background-color: #fd4c5c;
+        height: 50%;
+        width: 100%;
+        color: white;
+        padding: -1px;
+        margin: 0px 2px -12px;
+    }
+}
+@media(max-width:768px){
+   
+    span{
+        font-size: 37px;
+        background: #ccc;
+        background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+        font-family:system-ui;
+        font-size: 3rem;
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        width: 823px;
+        margin: 2px -4px -5px;
+    }
+    
+    .contenedor1{
+        position: relative;
+        display: inline-block;
+        width: 818px;
+        padding: -1px;
+        margin: 372px -1px -5px;
+    }
+    .centrado{
+        position: absolute;
+        top:16%;
+        left: 249px;
+        color: rgb(255, 255, 255);
+        font-size: 115px;
+    }
+    
+    .derecha{
+        float: right;
+        width:271px;
+        margin: -59px -315px 54px;
+        
+    }
+    .izquierda{
+        float: left;
+        width: 306px;
+        margin: 19px -359px  10px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    .contenedorTex{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 22px;
+        margin: -73px -364px 0px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .contenedorTex2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px -350px 44px;
+        float: right;
+        padding: 19%;
+
+    }
+    footer{
+        background-color: #fd4c5c;
+        height: 50%;
+        width: 100%;
+        color: white;
+        padding: -1px;
+        margin: 0px 2px -12px;
+    }
+}
+@media(max-width:576px){
+    span{
+        font-size: 37px;
+        background: #ccc;
+        background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+        font-family:system-ui;
+        font-size: 3rem;
+    
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        width: 823px;
+        margin: 2px -4px -5px;
+    }
+    
+    .contenedor1{
+        position: relative;
+        display: inline-block;
+        width: 818px;
+        padding: -1px;
+        margin: 372px -1px -5px;
+    }
+    .centrado{
+        position: absolute;
+        top:16%;
+        left: 249px;
+        color: rgb(255, 255, 255);
+        font-size: 115px;
+    }
+    
+    .derecha{
+        float: right;
+        width:271px;
+        margin: -59px -315px 54px;
+        
+    }
+    .izquierda{
+        float: left;
+        width: 306px;
+        margin: 19px -359px  10px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    .contenedorTex{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 22px;
+        margin: -73px -364px 0px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .contenedorTex2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 0px -350px 44px;
+        float: right;
+        padding: 19%;
+
+    }
+    footer{
+        background-color: #fd4c5c;
+        height: 50%;
+        width: 133%;
+        color: white;
+        padding: -1px;
+        margin: 0px 2px -12px;
+    }
+}
